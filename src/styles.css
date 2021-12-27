@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #3e7c17;
-  --secondary-color: #f0bb62;
-  --tertiary-color: #f4eea9;
+  --primary-color: #e99497;
+  --secondary-color: #f3c583;
+  --tertiary-color: #e8e46e;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -45,7 +45,9 @@ footer {
   padding-left: 5px;
   background-color: var(--tertiary-color);
 }
-
+.navbar-light {
+  background: var(--primary-color);
+}
 .cooperation {
   max-width: 700px;
   margin: 30px auto;
@@ -88,6 +90,10 @@ footer {
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.about-link:hover {
+  color: white;
 }
 
 .primary-link {
